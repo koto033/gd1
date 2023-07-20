@@ -4,7 +4,7 @@ section{
     background-size: cover;
     scroll-snap-align: start;
     color: aliceblue;
-    background-color: rgb(174, 160, 160);
+    background-color: rgb(115, 182, 105);
     background-blend-mode: darken;
 }
 p{
@@ -19,12 +19,32 @@ p{
     background-size: cover;
     scroll-snap-align: start;
 }
-.title{
+.hero img{
+width: 25%;
+border: 3px solid #000;
+}
+.title1{
     font-family: 'Dancing Script', cursive;
     font-size: 7em;
-    color: rgb(122, 75, 75);
+    color: rgb(20, 61, 163);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(14, 50, 134, 0.4);
+}
+
+.title2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7em;
+    color: rgb(40, 143, 181);
     text-align: center;
 }
+
+.title3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7em;
+    color: rgb(22, 82, 143);
+    text-align: center;
+}
+
 
 @media(max-width:700px){
    .title {
@@ -50,12 +70,13 @@ p{
 .wrapper th, .wrapper td{
     padding:10px ;
 }
-.contact i, .contact i{
+.contact i{
     padding: 20px ;
 }
-.contact p, .contact p{
+.contact p{
     padding: 20px;
 }
-.hero p, .hero p{
+.hero p{
     padding: 20px;
+    line-height: 3.5em;
 }

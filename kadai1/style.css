@@ -3,6 +3,15 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     scroll-snap-align: start;
+    color: aliceblue;
+    background-color: rgb(174, 160, 160);
+    background-blend-mode: darken;
+}
+p{
+    text-align: center;
+}
+.wrapper th{
+    font-weight: 200;
 }
 .hero{
     background-image: url(images/25763606_m.jpg);
@@ -15,4 +24,38 @@ section{
     font-size: 7em;
     color: rgb(122, 75, 75);
     text-align: center;
+}
+
+@media(max-width:700px){
+   .title {
+    font-size: 5rem;
+   }
+}
+.menu{
+    background-image: url(images/green-tea-g426d601ce_1920.jpg);
+}
+
+.contact{
+    background-image:url(images/23327682_m.jpg) ;
+}
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+}
+.contact-sns{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper th, .wrapper td{
+    padding:10px ;
+}
+.contact i, .contact i{
+    padding: 20px ;
+}
+.contact p, .contact p{
+    padding: 20px;
+}
+.hero p, .hero p{
+    padding: 20px;
 }

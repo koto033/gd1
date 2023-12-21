@@ -1,0 +1,101 @@
+body {
+background-image: url(../img/b.jpg);
+background-size:cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+header{
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+main {
+    width: 70%;
+    background-color:  rgb(16 166 111);
+}
+aside {
+    width: 25%;
+    background-color: rgb(229 177 84);
+}
+a {
+    color: rgb(25, 29, 28);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(34, 34, 199);
+}
+h1 {
+    font-size: 1.8rem;
+}
+h1 a {
+    text-shadow:  #c1556c 15px 0 8px;
+    color:  rgb(221 205 189);
+}
+
+.title-back {
+    background-color: rgb(15 110 117);
+    margin-top: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+.post-img {
+    width: 600px;
+    text-align: center;
+    margin-left: 3rem;
+}
+.post-title {
+    font-size: 2rem;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: #fff;
+  text-shadow: -8px 6px 0 #000;
+  margin: 2rem;
+}
+
+.more{
+    display: none;
+    line-height: 1.8;
+    text-indent: 2rem;
+    margin-left: 2.5rem;
+    background-color: rgba(14, 13, 13, 0.488);
+    padding: 2rem;
+}
+.page-title {
+    font-family: 'Noto Serif KR', serif;
+}
+.post-desc {
+    margin:2.5rem;
+    line-height: 1.8;
+    text-indent: 2rem;
+    margin-right: 3rem;
+    background-color: rgba(14, 13, 13, 0.488);
+    padding: 2rem;
+}
+.side-box h3 {
+    font-size: 2.0rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-style: italic;
+    letter-spacing: .1em;
+    color: #ffffff;
+    text-shadow: -8px 6px 0 #000;
+    margin: 2rem;
+    border-bottom: 1.5rem;
+}
+.title-back h1 {
+    margin-top: 2rem;
+}
+.side-box i {
+    font-size: 2.2rem
+}
+.side-box li {
+    line-height: 4.2;
+    margin-left: 1.8rem;
+}
+
+
